@@ -18,7 +18,7 @@ static const NSInteger RetryTimesBreaken = 5;  ///<  重连1分钟  3秒一次 �
 static const NSInteger RetryTimesMargin = 3;
 
 
-#define RTMP_RECEIVE_TIMEOUT    2
+#define RTMP_RECEIVE_TIMEOUT    10
 #define DATA_ITEMS_MAX_COUNT 100
 #define RTMP_DATA_RESERVE_SIZE 400
 #define RTMP_HEAD_SIZE (sizeof(RTMPPacket) + RTMP_MAX_HEADER_SIZE)
